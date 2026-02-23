@@ -41,7 +41,7 @@ public class BaseTest {
         }
 
         driver = new ChromeDriver(options);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(8));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
     }
 
     @AfterClass

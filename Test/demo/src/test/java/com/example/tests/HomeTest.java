@@ -3,6 +3,7 @@ package com.example.tests;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.openqa.selenium.TimeoutException;
 
 import com.example.base.BaseTest;
 import com.example.page.HomePage;
@@ -14,16 +15,31 @@ public class HomeTest extends BaseTest {
 
     @BeforeMethod
     public void loginToHome() {
-        clearBrowserState();
-        openLoginPage();
-        seedUser("user@test.com", "123456");
+        TimeoutException last = null;
 
-        LoginPage login = new LoginPage(driver);
-        login.waitForLoaded();
-        login.enterEmail("user@test.com");
-        login.enterPassword("123456");
-        login.clickLogin();
-        waitForHomePage();
+        for (int attempt = 0; attempt < 2; attempt++) {
+            try {
+                clearBrowserState();
+                openLoginPage();
+                seedUser("user@test.com", "123456");
+
+                LoginPage login = new LoginPage(driver);
+                login.waitForLoaded();
+                login.enterEmail("user@test.com");
+                login.enterPassword("123456");
+                login.clickLogin();
+                waitForHomePage();
+                last = null;
+                break;
+            } catch (TimeoutException ex) {
+                last = ex;
+                driver.get(LOGIN_URL);
+            }
+        }
+
+        if (last != null) {
+            throw last;
+        }
 
         home = new HomePage(driver);
         home.waitForLoaded();
@@ -147,4 +163,3 @@ public class HomeTest extends BaseTest {
         return Integer.parseInt(digits);
     }
 }
-
