@@ -1,4 +1,4 @@
-name: CI/CD - Deploy Watch Store
+name: CI/CD - Publish Allure Report
 
 on:
   push:
@@ -15,32 +15,55 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  ci:
-    name: Validate Site Files
+  build-allure:
+    name: Run Tests and Build Allure Report
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Verify required files exist
-        run: |
-          test -f watch-store/index.html
-          test -f watch-store/home.html
-          test -f watch-store/css/styles.css
-          test -f watch-store/js/main.js
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
 
-      - name: Upload site artifact
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Start static server for watch-store
+        run: |
+          python3 -m http.server 5500 --directory watch-store > server.log 2>&1 &
+          sleep 3
+          curl -I http://127.0.0.1:5500/index.html
+
+      - name: Run TestNG suite
+        id: test_run
+        continue-on-error: true
+        run: |
+          xvfb-run --auto-servernum mvn -f Test/demo/pom.xml -B clean test
+
+      - name: Generate Allure report
+        if: always()
+        run: |
+          mvn -f Test/demo/pom.xml -B allure:report
+
+      - name: Upload Allure report artifact
+        if: always()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: watch-store
+          path: Test/demo/target/site/allure-maven-plugin
 
   deploy:
-    name: Deploy to GitHub Pages
-    needs: ci
+    name: Deploy Allure Report to GitHub Pages
+    needs: build-allure
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy
         id: deployment
