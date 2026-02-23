@@ -33,23 +33,24 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Start static server for watch-store
-        run: |
-          python3 -m http.server 5500 --directory watch-store > server.log 2>&1 &
-          sleep 3
-          curl -I http://127.0.0.1:5500/index.html
-
       - name: Clean previous Allure outputs
         run: |
           rm -rf Test/demo/allure-results
           rm -rf Test/demo/target/allure-results
           rm -rf Test/demo/allure-report
 
-      - name: Run TestNG suite
+      - name: Run TestNG suite (with local server)
         id: test_run
         continue-on-error: true
         run: |
+          python3 -m http.server 5500 --directory watch-store > server.log 2>&1 &
+          SERVER_PID=$!
+          sleep 3
+          curl -I http://127.0.0.1:5500/index.html
           xvfb-run --auto-servernum mvn -f Test/demo/pom.xml -B clean test
+          TEST_EXIT=$?
+          kill $SERVER_PID || true
+          exit $TEST_EXIT
 
       - name: Set up Node.js
         if: always()
@@ -78,6 +79,18 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: Test/demo/allure-report
+
+      - name: Upload raw test artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-debug-artifacts
+          path: |
+            Test/demo/target/surefire-reports
+            Test/demo/target/allure-results
+            Test/demo/allure-results
+            server.log
+          if-no-files-found: warn
 
   deploy:
     name: Deploy Allure Report to GitHub Pages
