@@ -2,7 +2,7 @@ name: CI/CD - Publish Allure Report
 
 on:
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
