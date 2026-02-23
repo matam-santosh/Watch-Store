@@ -45,16 +45,33 @@ jobs:
         run: |
           xvfb-run --auto-servernum mvn -f Test/demo/pom.xml -B clean test
 
+      - name: Set up Node.js
+        if: always()
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Generate Allure report
         if: always()
         run: |
-          mvn -f Test/demo/pom.xml -B allure:report
+          npm install -g allure-commandline --no-audit --no-fund
+
+          if [ -d Test/demo/allure-results ]; then
+            RESULTS_DIR="Test/demo/allure-results"
+          elif [ -d Test/demo/target/allure-results ]; then
+            RESULTS_DIR="Test/demo/target/allure-results"
+          else
+            echo "No Allure results directory found."
+            exit 1
+          fi
+
+          allure generate "$RESULTS_DIR" --clean -o Test/demo/allure-report
 
       - name: Upload Allure report artifact
         if: always()
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Test/demo/target/site/allure-maven-plugin
+          path: Test/demo/allure-report
 
   deploy:
     name: Deploy Allure Report to GitHub Pages
