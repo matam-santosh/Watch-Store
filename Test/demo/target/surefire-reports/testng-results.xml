@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="69" passed="69" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-23T09:33:30 IST" name="Selenium Suite" finished-at="2026-02-23T09:36:29 IST" duration-ms="179292">
+    <groups>
+    </groups>
+    <test started-at="2026-02-23T09:33:30 IST" name="Website Tests" finished-at="2026-02-23T09:36:29 IST" duration-ms="179292">
+      <class name="com.example.tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:07 IST" name="setup" finished-at="2026-02-23T09:34:10 IST" duration-ms="3260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:10 IST" name="setupCart" finished-at="2026-02-23T09:34:15 IST" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartCountIsDisplayed()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:15 IST" name="verifyCartCountIsDisplayed" finished-at="2026-02-23T09:34:15 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountIsDisplayed -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:15 IST" name="setupCart" finished-at="2026-02-23T09:34:21 IST" duration-ms="5798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartCountMatchesItems()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:21 IST" name="verifyCartCountMatchesItems" finished-at="2026-02-23T09:34:21 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountMatchesItems -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:21 IST" name="setupCart" finished-at="2026-02-23T09:34:26 IST" duration-ms="5104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartInitiallyNotNegative()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:26 IST" name="verifyCartInitiallyNotNegative" finished-at="2026-02-23T09:34:26 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartInitiallyNotNegative -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:26 IST" name="setupCart" finished-at="2026-02-23T09:34:31 IST" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartPageLoadsFast()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:31 IST" name="verifyCartPageLoadsFast" finished-at="2026-02-23T09:34:31 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageLoadsFast -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:31 IST" name="setupCart" finished-at="2026-02-23T09:34:36 IST" duration-ms="4829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartPageTitle()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:36 IST" name="verifyCartPageTitle" finished-at="2026-02-23T09:34:36 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageTitle -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:36 IST" name="setupCart" finished-at="2026-02-23T09:34:41 IST" duration-ms="4962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartTableIsVisible()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:41 IST" name="verifyCartTableIsVisible" finished-at="2026-02-23T09:34:41 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTableIsVisible -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:41 IST" name="setupCart" finished-at="2026-02-23T09:34:46 IST" duration-ms="4904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartTableNotEmptyAfterAdd()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:46 IST" name="verifyCartTableNotEmptyAfterAdd" finished-at="2026-02-23T09:34:46 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTableNotEmptyAfterAdd -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:46 IST" name="setupCart" finished-at="2026-02-23T09:34:51 IST" duration-ms="5115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCartTitleIsDisplayed()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:51 IST" name="verifyCartTitleIsDisplayed" finished-at="2026-02-23T09:34:51 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartTitleIsDisplayed -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:51 IST" name="setupCart" finished-at="2026-02-23T09:34:56 IST" duration-ms="5048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCheckoutButtonIsEnabled()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:56 IST" name="verifyCheckoutButtonIsEnabled" finished-at="2026-02-23T09:34:56 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutButtonIsEnabled -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:34:56 IST" name="setupCart" finished-at="2026-02-23T09:35:01 IST" duration-ms="4828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyCheckoutDoesNotCrash()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:01 IST" name="verifyCheckoutDoesNotCrash" finished-at="2026-02-23T09:35:01 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutDoesNotCrash -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:01 IST" name="setupCart" finished-at="2026-02-23T09:35:06 IST" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyContinueShoppingRedirectsToHome()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:06 IST" name="verifyContinueShoppingRedirectsToHome" finished-at="2026-02-23T09:35:07 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShoppingRedirectsToHome -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:07 IST" name="setupCart" finished-at="2026-02-23T09:35:12 IST" duration-ms="5000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyGrandTotalIsDisplayed()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:12 IST" name="verifyGrandTotalIsDisplayed" finished-at="2026-02-23T09:35:12 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrandTotalIsDisplayed -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:12 IST" name="setupCart" finished-at="2026-02-23T09:35:17 IST" duration-ms="5156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyGrandTotalUpdatesAfterAdd()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:17 IST" name="verifyGrandTotalUpdatesAfterAdd" finished-at="2026-02-23T09:35:17 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrandTotalUpdatesAfterAdd -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:17 IST" name="setupCart" finished-at="2026-02-23T09:35:22 IST" duration-ms="5248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyLogoutFromCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:22 IST" name="verifyLogoutFromCart" finished-at="2026-02-23T09:35:22 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFromCart -->
+        <test-method is-config="true" signature="setupCart()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:22 IST" name="setupCart" finished-at="2026-02-23T09:35:28 IST" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupCart -->
+        <test-method signature="verifyUserStaysOnCartAfterRefresh()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:28 IST" name="verifyUserStaysOnCartAfterRefresh" finished-at="2026-02-23T09:35:28 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserStaysOnCartAfterRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CartTest@28dcca0c]" started-at="2026-02-23T09:35:28 IST" name="tearDown" finished-at="2026-02-23T09:35:28 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.CartTest -->
+      <class name="com.example.tests.OrdersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:05 IST" name="setup" finished-at="2026-02-23T09:36:08 IST" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:08 IST" name="setupOrders" finished-at="2026-02-23T09:36:10 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyCartCountVisibleInHeader()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:10 IST" name="verifyCartCountVisibleInHeader" finished-at="2026-02-23T09:36:10 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountVisibleInHeader -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:10 IST" name="setupOrders" finished-at="2026-02-23T09:36:11 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyHeroVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:11 IST" name="verifyHeroVisible" finished-at="2026-02-23T09:36:11 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeroVisible -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:11 IST" name="setupOrders" finished-at="2026-02-23T09:36:12 IST" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyLogoutFromOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:12 IST" name="verifyLogoutFromOrders" finished-at="2026-02-23T09:36:13 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFromOrders -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:13 IST" name="setupOrders" finished-at="2026-02-23T09:36:14 IST" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOpenHomeAndBackToOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:14 IST" name="verifyOpenHomeAndBackToOrders" finished-at="2026-02-23T09:36:14 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenHomeAndBackToOrders -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:14 IST" name="setupOrders" finished-at="2026-02-23T09:36:15 IST" duration-ms="1310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrderCardRendered()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:15 IST" name="verifyOrderCardRendered" finished-at="2026-02-23T09:36:15 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderCardRendered -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:15 IST" name="setupOrders" finished-at="2026-02-23T09:36:17 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersHasPurchaseHistoryLabel()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:17 IST" name="verifyOrdersHasPurchaseHistoryLabel" finished-at="2026-02-23T09:36:17 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersHasPurchaseHistoryLabel -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:17 IST" name="setupOrders" finished-at="2026-02-23T09:36:18 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersPageLoadsFast()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:18 IST" name="verifyOrdersPageLoadsFast" finished-at="2026-02-23T09:36:18 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersPageLoadsFast -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:18 IST" name="setupOrders" finished-at="2026-02-23T09:36:19 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersPageTitle()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:19 IST" name="verifyOrdersPageTitle" finished-at="2026-02-23T09:36:19 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersPageTitle -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:19 IST" name="setupOrders" finished-at="2026-02-23T09:36:21 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersPersistAfterRefresh()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:21 IST" name="verifyOrdersPersistAfterRefresh" finished-at="2026-02-23T09:36:21 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersPersistAfterRefresh -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:21 IST" name="setupOrders" finished-at="2026-02-23T09:36:22 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersTextNotBlank()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:22 IST" name="verifyOrdersTextNotBlank" finished-at="2026-02-23T09:36:22 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersTextNotBlank -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:22 IST" name="setupOrders" finished-at="2026-02-23T09:36:24 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifyOrdersWrapVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:24 IST" name="verifyOrdersWrapVisible" finished-at="2026-02-23T09:36:24 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersWrapVisible -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:24 IST" name="setupOrders" finished-at="2026-02-23T09:36:25 IST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifySeededOrderIdVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:25 IST" name="verifySeededOrderIdVisible" finished-at="2026-02-23T09:36:25 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeededOrderIdVisible -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:25 IST" name="setupOrders" finished-at="2026-02-23T09:36:26 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifySeededOrderItemVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:26 IST" name="verifySeededOrderItemVisible" finished-at="2026-02-23T09:36:26 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeededOrderItemVisible -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:26 IST" name="setupOrders" finished-at="2026-02-23T09:36:27 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifySeededOrderQuantityVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:27 IST" name="verifySeededOrderQuantityVisible" finished-at="2026-02-23T09:36:27 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeededOrderQuantityVisible -->
+        <test-method is-config="true" signature="setupOrders()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:27 IST" name="setupOrders" finished-at="2026-02-23T09:36:29 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupOrders -->
+        <test-method signature="verifySeededOrderTotalVisible()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:29 IST" name="verifySeededOrderTotalVisible" finished-at="2026-02-23T09:36:29 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeededOrderTotalVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.OrdersTest@2de56eb2]" started-at="2026-02-23T09:36:29 IST" name="tearDown" finished-at="2026-02-23T09:36:29 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.OrdersTest -->
+      <class name="com.example.tests.PaymentsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:28 IST" name="setup" finished-at="2026-02-23T09:35:33 IST" duration-ms="4292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:33 IST" name="setupPayment" finished-at="2026-02-23T09:35:35 IST" duration-ms="2488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyBackToCartNavigation()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:35 IST" name="verifyBackToCartNavigation" finished-at="2026-02-23T09:35:35 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBackToCartNavigation -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:35 IST" name="setupPayment" finished-at="2026-02-23T09:35:37 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyCartCountVisibleInHeader()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:37 IST" name="verifyCartCountVisibleInHeader" finished-at="2026-02-23T09:35:37 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountVisibleInHeader -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:37 IST" name="setupPayment" finished-at="2026-02-23T09:35:39 IST" duration-ms="1956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyHeroIsVisible()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:39 IST" name="verifyHeroIsVisible" finished-at="2026-02-23T09:35:39 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeroIsVisible -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:39 IST" name="setupPayment" finished-at="2026-02-23T09:35:41 IST" duration-ms="1976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyLogoutFromPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:41 IST" name="verifyLogoutFromPayment" finished-at="2026-02-23T09:35:42 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFromPayment -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:42 IST" name="setupPayment" finished-at="2026-02-23T09:35:43 IST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyOrderSummaryIsVisible()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:43 IST" name="verifyOrderSummaryIsVisible" finished-at="2026-02-23T09:35:43 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryIsVisible -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:43 IST" name="setupPayment" finished-at="2026-02-23T09:35:45 IST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPayButtonEnabled()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:45 IST" name="verifyPayButtonEnabled" finished-at="2026-02-23T09:35:45 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayButtonEnabled -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:45 IST" name="setupPayment" finished-at="2026-02-23T09:35:47 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPayErrorElementPresent()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:47 IST" name="verifyPayErrorElementPresent" finished-at="2026-02-23T09:35:47 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayErrorElementPresent -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:47 IST" name="setupPayment" finished-at="2026-02-23T09:35:49 IST" duration-ms="1927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPayTotalIsDisplayed()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:49 IST" name="verifyPayTotalIsDisplayed" finished-at="2026-02-23T09:35:49 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPayTotalIsDisplayed -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:49 IST" name="setupPayment" finished-at="2026-02-23T09:35:51 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentFormInvalidWhenEmpty()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:51 IST" name="verifyPaymentFormInvalidWhenEmpty" finished-at="2026-02-23T09:35:51 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentFormInvalidWhenEmpty -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:51 IST" name="setupPayment" finished-at="2026-02-23T09:35:53 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentFormIsVisible()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:53 IST" name="verifyPaymentFormIsVisible" finished-at="2026-02-23T09:35:53 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentFormIsVisible -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:53 IST" name="setupPayment" finished-at="2026-02-23T09:35:55 IST" duration-ms="1758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentFormValidWithDetails()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:55 IST" name="verifyPaymentFormValidWithDetails" finished-at="2026-02-23T09:35:56 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentFormValidWithDetails -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:56 IST" name="setupPayment" finished-at="2026-02-23T09:35:58 IST" duration-ms="1859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentPageLoadsFast()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:58 IST" name="verifyPaymentPageLoadsFast" finished-at="2026-02-23T09:35:58 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPageLoadsFast -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:35:58 IST" name="setupPayment" finished-at="2026-02-23T09:36:00 IST" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentPageStaysAfterRefresh()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:00 IST" name="verifyPaymentPageStaysAfterRefresh" finished-at="2026-02-23T09:36:00 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPageStaysAfterRefresh -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:00 IST" name="setupPayment" finished-at="2026-02-23T09:36:01 IST" duration-ms="1730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifyPaymentPageTitle()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:01 IST" name="verifyPaymentPageTitle" finished-at="2026-02-23T09:36:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPageTitle -->
+        <test-method is-config="true" signature="setupPayment()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:01 IST" name="setupPayment" finished-at="2026-02-23T09:36:03 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPayment -->
+        <test-method signature="verifySubmitDoesNotCrashWithValidData()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:03 IST" name="verifySubmitDoesNotCrashWithValidData" finished-at="2026-02-23T09:36:04 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmitDoesNotCrashWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.PaymentsTest@6f204a1a]" started-at="2026-02-23T09:36:04 IST" name="tearDown" finished-at="2026-02-23T09:36:05 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.PaymentsTest -->
+      <class name="com.example.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:30 IST" name="setup" finished-at="2026-02-23T09:33:35 IST" duration-ms="4344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:35 IST" name="init" finished-at="2026-02-23T09:33:35 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="emptyEmail_isRejectedByHtmlValidation()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:35 IST" name="emptyEmail_isRejectedByHtmlValidation" finished-at="2026-02-23T09:33:35 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmail_isRejectedByHtmlValidation -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:35 IST" name="init" finished-at="2026-02-23T09:33:36 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="emptyFields_areRejectedByHtmlValidation()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:36 IST" name="emptyFields_areRejectedByHtmlValidation" finished-at="2026-02-23T09:33:36 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFields_areRejectedByHtmlValidation -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:36 IST" name="init" finished-at="2026-02-23T09:33:36 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="emptyPassword_isRejectedByHtmlValidation()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:36 IST" name="emptyPassword_isRejectedByHtmlValidation" finished-at="2026-02-23T09:33:36 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword_isRejectedByHtmlValidation -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:36 IST" name="init" finished-at="2026-02-23T09:33:36 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="invalidEmailFormat_isRejectedByHtmlValidation()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:36 IST" name="invalidEmailFormat_isRejectedByHtmlValidation" finished-at="2026-02-23T09:33:37 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailFormat_isRejectedByHtmlValidation -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="init" finished-at="2026-02-23T09:33:37 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginButtonIsEnabled()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="loginButtonIsEnabled" finished-at="2026-02-23T09:33:37 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginButtonIsEnabled -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="init" finished-at="2026-02-23T09:33:37 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="sessionIsNotSetBeforeLogin()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="sessionIsNotSetBeforeLogin" finished-at="2026-02-23T09:33:37 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionIsNotSetBeforeLogin -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="init" finished-at="2026-02-23T09:33:37 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validLogin_setsSession()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:37 IST" name="validLogin_setsSession" finished-at="2026-02-23T09:33:38 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin_setsSession -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:38 IST" name="init" finished-at="2026-02-23T09:33:38 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:38 IST" name="verifyLoginPageTitle" finished-at="2026-02-23T09:33:38 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:38 IST" name="init" finished-at="2026-02-23T09:33:38 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="wrongPassword_showsErrorMessage()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:38 IST" name="wrongPassword_showsErrorMessage" finished-at="2026-02-23T09:33:39 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPassword_showsErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@2a693f59]" started-at="2026-02-23T09:33:39 IST" name="tearDown" finished-at="2026-02-23T09:33:40 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.LoginTest -->
+      <class name="com.example.tests.HomeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:40 IST" name="setup" finished-at="2026-02-23T09:33:43 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:43 IST" name="loginToHome" finished-at="2026-02-23T09:33:45 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyCartCountInitiallyZero()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:45 IST" name="verifyCartCountInitiallyZero" finished-at="2026-02-23T09:33:45 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartCountInitiallyZero -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:45 IST" name="loginToHome" finished-at="2026-02-23T09:33:46 IST" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyHeroSectionIsVisible()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:46 IST" name="verifyHeroSectionIsVisible" finished-at="2026-02-23T09:33:46 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeroSectionIsVisible -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:46 IST" name="loginToHome" finished-at="2026-02-23T09:33:48 IST" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyHomeNavPillIsActive()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:48 IST" name="verifyHomeNavPillIsActive" finished-at="2026-02-23T09:33:48 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeNavPillIsActive -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:48 IST" name="loginToHome" finished-at="2026-02-23T09:33:49 IST" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:49 IST" name="verifyHomePageTitle" finished-at="2026-02-23T09:33:49 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:49 IST" name="loginToHome" finished-at="2026-02-23T09:33:50 IST" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyHomeRedirectsToLoginWhenNotAuthenticated()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:50 IST" name="verifyHomeRedirectsToLoginWhenNotAuthenticated" finished-at="2026-02-23T09:33:51 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeRedirectsToLoginWhenNotAuthenticated -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:51 IST" name="loginToHome" finished-at="2026-02-23T09:33:52 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyInitialResultsCountMatchesCards()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:52 IST" name="verifyInitialResultsCountMatchesCards" finished-at="2026-02-23T09:33:52 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInitialResultsCountMatchesCards -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:52 IST" name="loginToHome" finished-at="2026-02-23T09:33:54 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyLogoutRedirectsToLoginPage()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:54 IST" name="verifyLogoutRedirectsToLoginPage" finished-at="2026-02-23T09:33:54 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToLoginPage -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:54 IST" name="loginToHome" finished-at="2026-02-23T09:33:56 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyProductsGridIsDisplayed()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:56 IST" name="verifyProductsGridIsDisplayed" finished-at="2026-02-23T09:33:56 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsGridIsDisplayed -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:56 IST" name="loginToHome" finished-at="2026-02-23T09:33:57 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyReloadKeepsUserOnHomePage()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:57 IST" name="verifyReloadKeepsUserOnHomePage" finished-at="2026-02-23T09:33:57 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReloadKeepsUserOnHomePage -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:57 IST" name="loginToHome" finished-at="2026-02-23T09:33:58 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyResultsCountTextFormat()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:58 IST" name="verifyResultsCountTextFormat" finished-at="2026-02-23T09:33:58 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsCountTextFormat -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:33:58 IST" name="loginToHome" finished-at="2026-02-23T09:34:00 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifySearchBoxIsVisible()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:00 IST" name="verifySearchBoxIsVisible" finished-at="2026-02-23T09:34:00 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxIsVisible -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:00 IST" name="loginToHome" finished-at="2026-02-23T09:34:01 IST" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifySearchByNameReducesResults()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:01 IST" name="verifySearchByNameReducesResults" finished-at="2026-02-23T09:34:01 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByNameReducesResults -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:01 IST" name="loginToHome" finished-at="2026-02-23T09:34:03 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifySearchResultsCountUpdates()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:03 IST" name="verifySearchResultsCountUpdates" finished-at="2026-02-23T09:34:03 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsCountUpdates -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:03 IST" name="loginToHome" finished-at="2026-02-23T09:34:04 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifySearchUnknownShowsZeroResults()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:04 IST" name="verifySearchUnknownShowsZeroResults" finished-at="2026-02-23T09:34:05 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchUnknownShowsZeroResults -->
+        <test-method is-config="true" signature="loginToHome()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:05 IST" name="loginToHome" finished-at="2026-02-23T09:34:06 IST" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHome -->
+        <test-method signature="verifyToastIsHiddenByDefault()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:06 IST" name="verifyToastIsHiddenByDefault" finished-at="2026-02-23T09:34:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToastIsHiddenByDefault -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.HomeTest@25be7b63]" started-at="2026-02-23T09:34:06 IST" name="tearDown" finished-at="2026-02-23T09:34:07 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.HomeTest -->
+    </test> <!-- Website Tests -->
+  </suite> <!-- Selenium Suite -->
+</testng-results>

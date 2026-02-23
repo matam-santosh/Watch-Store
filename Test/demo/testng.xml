@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Suite">
+ <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Website Tests">
+        <classes>
+            <class name="com.example.tests.LoginTest"/>
+            <class name="com.example.tests.HomeTest"/>
+            <class name="com.example.tests.CartTest"/>
+            <class name="com.example.tests.PaymentsTest"/>
+            <class name="com.example.tests.OrdersTest"/>
+        </classes>
+    </test>
+</suite>

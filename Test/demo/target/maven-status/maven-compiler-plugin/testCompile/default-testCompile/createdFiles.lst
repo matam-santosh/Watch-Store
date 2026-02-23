@@ -1,0 +1,11 @@
+com\example\page\CartPage.class
+com\example\page\HomePage.class
+com\example\page\OrdersPage.class
+com\example\page\PaymentPage.class
+com\example\page\LoginPage.class
+com\example\tests\LoginTest.class
+com\example\tests\OrdersTest.class
+com\example\tests\CartTest.class
+com\example\base\BaseTest.class
+com\example\tests\HomeTest.class
+com\example\tests\PaymentsTest.class

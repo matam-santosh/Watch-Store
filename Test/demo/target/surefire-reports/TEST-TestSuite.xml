@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="180.171" tests="69" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MatamSantosh\Downloads\Test\demo\target\test-classes;C:\Users\MatamSantosh\Downloads\Test\demo\target\classes;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\MatamSantosh\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\MatamSantosh\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\MatamSantosh\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\MatamSantosh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\MatamSantosh\AppData\Local\Temp\surefire16097088971030226657\surefirebooter-20260223093329560_3.jar C:\Users\MatamSantosh\AppData\Local\Temp\surefire16097088971030226657 2026-02-23T09-33-29_438-jvmRun1 surefire-20260223093329560_1tmp surefire_0-20260223093329560_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MatamSantosh\Downloads\Test\demo\target\test-classes;C:\Users\MatamSantosh\Downloads\Test\demo\target\classes;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\MatamSantosh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\MatamSantosh\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\MatamSantosh\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\MatamSantosh\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\MatamSantosh\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\MatamSantosh\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\MatamSantosh\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\MatamSantosh\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\MatamSantosh\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MatamSantosh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MatamSantosh\Downloads\Test\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MatamSantosh\AppData\Local\Temp\surefire16097088971030226657\surefirebooter-20260223093329560_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="MatamSantosh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MatamSantosh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MATAMS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\MatamSantosh\Downloads\Test\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\MatamSantosh\Downloads\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;%JAVA_HOME%\bin;C:\Users\MatamSantosh\AppData\Local\Microsoft\WindowsApps;C:\Users\MatamSantosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MatamSantosh\AppData\Roaming\npm;C:\Users\MatamSantosh\AppData\Local\Programs\cursor\resources\app\bin;c:\Users\MatamSantosh\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="emptyEmail_isRejectedByHtmlValidation" classname="com.example.tests.LoginTest" time="0.334">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Feb 23, 2026 9:33:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="emptyFields_areRejectedByHtmlValidation" classname="com.example.tests.LoginTest" time="0.015"/>
+  <testcase name="emptyPassword_isRejectedByHtmlValidation" classname="com.example.tests.LoginTest" time="0.187"/>
+  <testcase name="invalidEmailFormat_isRejectedByHtmlValidation" classname="com.example.tests.LoginTest" time="0.344"/>
+  <testcase name="loginButtonIsEnabled" classname="com.example.tests.LoginTest" time="0.059"/>
+  <testcase name="sessionIsNotSetBeforeLogin" classname="com.example.tests.LoginTest" time="0.032"/>
+  <testcase name="validLogin_setsSession" classname="com.example.tests.LoginTest" time="0.508"/>
+  <testcase name="verifyLoginPageTitle" classname="com.example.tests.LoginTest" time="0.025"/>
+  <testcase name="wrongPassword_showsErrorMessage" classname="com.example.tests.LoginTest" time="0.602"/>
+  <testcase name="verifyCartCountInitiallyZero" classname="com.example.tests.HomeTest" time="0.06">
+    <system-err><![CDATA[Feb 23, 2026 9:33:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHeroSectionIsVisible" classname="com.example.tests.HomeTest" time="0.063"/>
+  <testcase name="verifyHomeNavPillIsActive" classname="com.example.tests.HomeTest" time="0.079"/>
+  <testcase name="verifyHomePageTitle" classname="com.example.tests.HomeTest" time="0.016"/>
+  <testcase name="verifyHomeRedirectsToLoginWhenNotAuthenticated" classname="com.example.tests.HomeTest" time="0.133"/>
+  <testcase name="verifyInitialResultsCountMatchesCards" classname="com.example.tests.HomeTest" time="0.112"/>
+  <testcase name="verifyLogoutRedirectsToLoginPage" classname="com.example.tests.HomeTest" time="0.693"/>
+  <testcase name="verifyProductsGridIsDisplayed" classname="com.example.tests.HomeTest" time="0.04"/>
+  <testcase name="verifyReloadKeepsUserOnHomePage" classname="com.example.tests.HomeTest" time="0.162"/>
+  <testcase name="verifyResultsCountTextFormat" classname="com.example.tests.HomeTest" time="0.045"/>
+  <testcase name="verifySearchBoxIsVisible" classname="com.example.tests.HomeTest" time="0.048"/>
+  <testcase name="verifySearchByNameReducesResults" classname="com.example.tests.HomeTest" time="0.318"/>
+  <testcase name="verifySearchResultsCountUpdates" classname="com.example.tests.HomeTest" time="0.241"/>
+  <testcase name="verifySearchUnknownShowsZeroResults" classname="com.example.tests.HomeTest" time="0.253"/>
+  <testcase name="verifyToastIsHiddenByDefault" classname="com.example.tests.HomeTest" time="0.016"/>
+  <testcase name="verifyCartCountIsDisplayed" classname="com.example.tests.CartTest" time="0.04">
+    <system-err><![CDATA[Feb 23, 2026 9:34:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCartCountMatchesItems" classname="com.example.tests.CartTest" time="0.049"/>
+  <testcase name="verifyCartInitiallyNotNegative" classname="com.example.tests.CartTest" time="0.042"/>
+  <testcase name="verifyCartPageLoadsFast" classname="com.example.tests.CartTest" time="0.033"/>
+  <testcase name="verifyCartPageTitle" classname="com.example.tests.CartTest" time="0.012"/>
+  <testcase name="verifyCartTableIsVisible" classname="com.example.tests.CartTest" time="0.051"/>
+  <testcase name="verifyCartTableNotEmptyAfterAdd" classname="com.example.tests.CartTest" time="0.035"/>
+  <testcase name="verifyCartTitleIsDisplayed" classname="com.example.tests.CartTest" time="0.05"/>
+  <testcase name="verifyCheckoutButtonIsEnabled" classname="com.example.tests.CartTest" time="0.051"/>
+  <testcase name="verifyCheckoutDoesNotCrash" classname="com.example.tests.CartTest" time="0.189"/>
+  <testcase name="verifyContinueShoppingRedirectsToHome" classname="com.example.tests.CartTest" time="0.204"/>
+  <testcase name="verifyGrandTotalIsDisplayed" classname="com.example.tests.CartTest" time="0.048"/>
+  <testcase name="verifyGrandTotalUpdatesAfterAdd" classname="com.example.tests.CartTest" time="0.065"/>
+  <testcase name="verifyLogoutFromCart" classname="com.example.tests.CartTest" time="0.235"/>
+  <testcase name="verifyUserStaysOnCartAfterRefresh" classname="com.example.tests.CartTest" time="0.055"/>
+  <testcase name="verifyBackToCartNavigation" classname="com.example.tests.PaymentsTest" time="0.182">
+    <system-err><![CDATA[Feb 23, 2026 9:35:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCartCountVisibleInHeader" classname="com.example.tests.PaymentsTest" time="0.043"/>
+  <testcase name="verifyHeroIsVisible" classname="com.example.tests.PaymentsTest" time="0.054"/>
+  <testcase name="verifyLogoutFromPayment" classname="com.example.tests.PaymentsTest" time="0.221"/>
+  <testcase name="verifyOrderSummaryIsVisible" classname="com.example.tests.PaymentsTest" time="0.049"/>
+  <testcase name="verifyPayButtonEnabled" classname="com.example.tests.PaymentsTest" time="0.033"/>
+  <testcase name="verifyPayErrorElementPresent" classname="com.example.tests.PaymentsTest" time="0.052"/>
+  <testcase name="verifyPayTotalIsDisplayed" classname="com.example.tests.PaymentsTest" time="0.05"/>
+  <testcase name="verifyPaymentFormInvalidWhenEmpty" classname="com.example.tests.PaymentsTest" time="0.016"/>
+  <testcase name="verifyPaymentFormIsVisible" classname="com.example.tests.PaymentsTest" time="0.051"/>
+  <testcase name="verifyPaymentFormValidWithDetails" classname="com.example.tests.PaymentsTest" time="0.839"/>
+  <testcase name="verifyPaymentPageLoadsFast" classname="com.example.tests.PaymentsTest" time="0.054"/>
+  <testcase name="verifyPaymentPageStaysAfterRefresh" classname="com.example.tests.PaymentsTest" time="0.098"/>
+  <testcase name="verifyPaymentPageTitle" classname="com.example.tests.PaymentsTest" time="0.008"/>
+  <testcase name="verifySubmitDoesNotCrashWithValidData" classname="com.example.tests.PaymentsTest" time="0.949"/>
+  <testcase name="verifyCartCountVisibleInHeader" classname="com.example.tests.OrdersTest" time="0.059">
+    <system-err><![CDATA[Feb 23, 2026 9:36:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 145, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 145
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHeroVisible" classname="com.example.tests.OrdersTest" time="0.042"/>
+  <testcase name="verifyLogoutFromOrders" classname="com.example.tests.OrdersTest" time="0.244"/>
+  <testcase name="verifyOpenHomeAndBackToOrders" classname="com.example.tests.OrdersTest" time="0.166"/>
+  <testcase name="verifyOrderCardRendered" classname="com.example.tests.OrdersTest" time="0.025"/>
+  <testcase name="verifyOrdersHasPurchaseHistoryLabel" classname="com.example.tests.OrdersTest" time="0.047"/>
+  <testcase name="verifyOrdersPageLoadsFast" classname="com.example.tests.OrdersTest" time="0.049"/>
+  <testcase name="verifyOrdersPageTitle" classname="com.example.tests.OrdersTest" time="0.012"/>
+  <testcase name="verifyOrdersPersistAfterRefresh" classname="com.example.tests.OrdersTest" time="0.12"/>
+  <testcase name="verifyOrdersTextNotBlank" classname="com.example.tests.OrdersTest" time="0.048"/>
+  <testcase name="verifyOrdersWrapVisible" classname="com.example.tests.OrdersTest" time="0.036"/>
+  <testcase name="verifySeededOrderIdVisible" classname="com.example.tests.OrdersTest" time="0.047"/>
+  <testcase name="verifySeededOrderItemVisible" classname="com.example.tests.OrdersTest" time="0.044"/>
+  <testcase name="verifySeededOrderQuantityVisible" classname="com.example.tests.OrdersTest" time="0.027"/>
+  <testcase name="verifySeededOrderTotalVisible" classname="com.example.tests.OrdersTest" time="0.04"/>
+</testsuite>

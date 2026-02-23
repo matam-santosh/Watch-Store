@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070A12" />
+    <meta name="description" content="Watch Store — modern gaming-themed watch shopping experience (LocalStorage demo)." />
+    <title>Watch Store — Login</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%237C5CFF'/%3E%3Cstop%20offset='1'%20stop-color='%2300E6FF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='64'%20height='64'%20rx='18'%20fill='url(%23g)'/%3E%3Cpath%20d='M22%2014h20a6%206%200%200%201%206%206v6H16v-6a6%206%200%200%201%206-6zm-6%2036v-6h32v6a6%206%200%200%201-6%206H22a6%206%200%200%201-6-6zm16-28a14%2014%200%201%200%200%2028%2014%2014%200%200%200%200-28zm0%206a8%208%200%201%201%200%2016%208%208%200%200%201%200-16z'%20fill='rgba(7,10,18,.85)'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body data-page="auth">
+    <main class="container" style="min-height:100%;display:grid;place-items:center">
+      <section class="card pad" style="width:min(980px, 100%);">
+        <div class="grid">
+          <div class="col-6 stack" style="gap:10px">
+            <div class="row" style="gap:10px">
+              <div class="brand-badge" aria-hidden="true"></div>
+              <div class="stack" style="gap:2px">
+                <div style="font-weight:900;letter-spacing:.3px">Watch Store</div>
+                <div class="hint">Modern gaming theme • LocalStorage demo</div>
+              </div>
+            </div>
+            <h1 id="authTitle" class="h1">Welcome back</h1>
+            <p class="sub">
+              Log in to shop watches, manage your cart, and track orders. Your data is stored locally in your browser (no backend).
+            </p>
+
+            <div class="card pad soft stack" style="gap:12px">
+              <div class="row">
+                <span class="chip"><strong>Secure-ish</strong> SHA-256 password hash</span>
+                <span class="chip"><strong>Fast</strong> no external libraries</span>
+                <span class="chip"><strong>Offline</strong> data stays on device</span>
+              </div>
+              <p class="hint" style="margin:0">
+                Tip: Use any email. Password must be at least 6 characters.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-6 stack">
+            <form id="loginForm" class="card pad">
+              <div class="stack">
+                <div class="field">
+                  <label class="label" for="loginEmail">Email</label>
+                  <input class="input" id="loginEmail" type="email" required autocomplete="email" inputmode="email" />
+                </div>
+                <div class="field">
+                  <label class="label" for="loginPassword">Password</label>
+                  <input class="input" id="loginPassword" type="password" required autocomplete="current-password" />
+                </div>
+                <div id="loginErr" class="err" role="alert" aria-live="polite"></div>
+                <button id="loginBtn" class="btn" type="submit">Login</button>
+                <button id="toggleToSignup" class="btn ghost" type="button">New here? Create an account</button>
+              </div>
+            </form>
+
+            <form id="signupForm" class="card pad" hidden>
+              <div class="stack">
+                <div class="field">
+                  <label class="label" for="signupEmail">Email</label>
+                  <input class="input" id="signupEmail" type="email" required autocomplete="email" inputmode="email" />
+                </div>
+                <div class="field">
+                  <label class="label" for="signupPassword">Password</label>
+                  <input class="input" id="signupPassword" type="password" required autocomplete="new-password" minlength="6" />
+                  <div class="hint">Minimum 6 characters.</div>
+                </div>
+                <div id="signupErr" class="err" role="alert" aria-live="polite"></div>
+                <button id="signupBtn" class="btn" type="submit">Create account</button>
+                <button id="toggleToLogin" class="btn ghost" type="button">Already have an account? Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite">
+      <div class="t">Notice</div>
+      <div class="m">Message</div>
+    </div>
+    <noscript>
+      <div class="container">
+        <div class="card pad">
+          This site needs JavaScript enabled to work.
+        </div>
+      </div>
+    </noscript>
+  </body>
+</html>
+

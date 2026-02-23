@@ -1,0 +1,425 @@
+<html>
+<head>
+<title>TestNG:  Website Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Website Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>69/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 23 09:33:30 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>179 seconds (179292 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifySeededOrderTotalVisible()'><b>verifySeededOrderTotalVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyReloadKeepsUserOnHomePage()'><b>verifyReloadKeepsUserOnHomePage</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartCountMatchesItems()'><b>verifyCartCountMatchesItems</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyToastIsHiddenByDefault()'><b>verifyToastIsHiddenByDefault</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.verifyLoginPageTitle()'><b>verifyLoginPageTitle</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyGrandTotalUpdatesAfterAdd()'><b>verifyGrandTotalUpdatesAfterAdd</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersTextNotBlank()'><b>verifyOrdersTextNotBlank</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartTableIsVisible()'><b>verifyCartTableIsVisible</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifySearchBoxIsVisible()'><b>verifySearchBoxIsVisible</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.validLogin_setsSession()'><b>validLogin_setsSession</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyInitialResultsCountMatchesCards()'><b>verifyInitialResultsCountMatchesCards</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyUserStaysOnCartAfterRefresh()'><b>verifyUserStaysOnCartAfterRefresh</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersWrapVisible()'><b>verifyOrdersWrapVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyOrderSummaryIsVisible()'><b>verifyOrderSummaryIsVisible</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.emptyEmail_isRejectedByHtmlValidation()'><b>emptyEmail_isRejectedByHtmlValidation</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartPageTitle()'><b>verifyCartPageTitle</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartInitiallyNotNegative()'><b>verifyCartInitiallyNotNegative</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentPageStaysAfterRefresh()'><b>verifyPaymentPageStaysAfterRefresh</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrderCardRendered()'><b>verifyOrderCardRendered</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifySeededOrderItemVisible()'><b>verifySeededOrderItemVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPayButtonEnabled()'><b>verifyPayButtonEnabled</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.invalidEmailFormat_isRejectedByHtmlValidation()'><b>invalidEmailFormat_isRejectedByHtmlValidation</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCheckoutButtonIsEnabled()'><b>verifyCheckoutButtonIsEnabled</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersPersistAfterRefresh()'><b>verifyOrdersPersistAfterRefresh</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyHomeNavPillIsActive()'><b>verifyHomeNavPillIsActive</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyResultsCountTextFormat()'><b>verifyResultsCountTextFormat</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOpenHomeAndBackToOrders()'><b>verifyOpenHomeAndBackToOrders</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyContinueShoppingRedirectsToHome()'><b>verifyContinueShoppingRedirectsToHome</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.emptyFields_areRejectedByHtmlValidation()'><b>emptyFields_areRejectedByHtmlValidation</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartTitleIsDisplayed()'><b>verifyCartTitleIsDisplayed</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentPageTitle()'><b>verifyPaymentPageTitle</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartTableNotEmptyAfterAdd()'><b>verifyCartTableNotEmptyAfterAdd</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifySeededOrderQuantityVisible()'><b>verifySeededOrderQuantityVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.sessionIsNotSetBeforeLogin()'><b>sessionIsNotSetBeforeLogin</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCheckoutDoesNotCrash()'><b>verifyCheckoutDoesNotCrash</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyCartCountVisibleInHeader()'><b>verifyCartCountVisibleInHeader</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyProductsGridIsDisplayed()'><b>verifyProductsGridIsDisplayed</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartPageLoadsFast()'><b>verifyCartPageLoadsFast</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyLogoutRedirectsToLoginPage()'><b>verifyLogoutRedirectsToLoginPage</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyCartCountVisibleInHeader()'><b>verifyCartCountVisibleInHeader</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersPageLoadsFast()'><b>verifyOrdersPageLoadsFast</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyBackToCartNavigation()'><b>verifyBackToCartNavigation</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifySearchUnknownShowsZeroResults()'><b>verifySearchUnknownShowsZeroResults</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifySubmitDoesNotCrashWithValidData()'><b>verifySubmitDoesNotCrashWithValidData</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.emptyPassword_isRejectedByHtmlValidation()'><b>emptyPassword_isRejectedByHtmlValidation</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifySearchByNameReducesResults()'><b>verifySearchByNameReducesResults</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifySearchResultsCountUpdates()'><b>verifySearchResultsCountUpdates</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPayErrorElementPresent()'><b>verifyPayErrorElementPresent</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentFormIsVisible()'><b>verifyPaymentFormIsVisible</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersPageTitle()'><b>verifyOrdersPageTitle</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyGrandTotalIsDisplayed()'><b>verifyGrandTotalIsDisplayed</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentFormInvalidWhenEmpty()'><b>verifyPaymentFormInvalidWhenEmpty</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPayTotalIsDisplayed()'><b>verifyPayTotalIsDisplayed</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyHeroVisible()'><b>verifyHeroVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyLogoutFromPayment()'><b>verifyLogoutFromPayment</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyLogoutFromOrders()'><b>verifyLogoutFromOrders</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyCartCountIsDisplayed()'><b>verifyCartCountIsDisplayed</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyHeroIsVisible()'><b>verifyHeroIsVisible</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.loginButtonIsEnabled()'><b>loginButtonIsEnabled</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyHomeRedirectsToLoginWhenNotAuthenticated()'><b>verifyHomeRedirectsToLoginWhenNotAuthenticated</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.LoginTest.wrongPassword_showsErrorMessage()'><b>wrongPassword_showsErrorMessage</b><br>Test class: com.example.tests.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.LoginTest@2a693f59</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifyOrdersHasPurchaseHistoryLabel()'><b>verifyOrdersHasPurchaseHistoryLabel</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentPageLoadsFast()'><b>verifyPaymentPageLoadsFast</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyHeroSectionIsVisible()'><b>verifyHeroSectionIsVisible</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.CartTest.verifyLogoutFromCart()'><b>verifyLogoutFromCart</b><br>Test class: com.example.tests.CartTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.CartTest@28dcca0c</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+<tr>
+<td title='com.example.tests.PaymentsTest.verifyPaymentFormValidWithDetails()'><b>verifyPaymentFormValidWithDetails</b><br>Test class: com.example.tests.PaymentsTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.PaymentsTest@6f204a1a</td></tr>
+<tr>
+<td title='com.example.tests.OrdersTest.verifySeededOrderIdVisible()'><b>verifySeededOrderIdVisible</b><br>Test class: com.example.tests.OrdersTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.OrdersTest@2de56eb2</td></tr>
+<tr>
+<td title='com.example.tests.HomeTest.verifyCartCountInitiallyZero()'><b>verifyCartCountInitiallyZero</b><br>Test class: com.example.tests.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.tests.HomeTest@25be7b63</td></tr>
+</table><p>
+</body>
+</html>
