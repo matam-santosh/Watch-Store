@@ -39,6 +39,12 @@ jobs:
           sleep 3
           curl -I http://127.0.0.1:5500/index.html
 
+      - name: Clean previous Allure outputs
+        run: |
+          rm -rf Test/demo/allure-results
+          rm -rf Test/demo/target/allure-results
+          rm -rf Test/demo/allure-report
+
       - name: Run TestNG suite
         id: test_run
         continue-on-error: true
@@ -56,10 +62,10 @@ jobs:
         run: |
           npm install -g allure-commandline --no-audit --no-fund
 
-          if [ -d Test/demo/allure-results ]; then
-            RESULTS_DIR="Test/demo/allure-results"
-          elif [ -d Test/demo/target/allure-results ]; then
+          if [ -d Test/demo/target/allure-results ]; then
             RESULTS_DIR="Test/demo/target/allure-results"
+          elif [ -d Test/demo/allure-results ]; then
+            RESULTS_DIR="Test/demo/allure-results"
           else
             echo "No Allure results directory found."
             exit 1

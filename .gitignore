@@ -1,2 +1,4 @@
 Test/demo/allure-results
 Test/node_modules
+Test/demo/allure-report
+Test/demo/target/allure-results
